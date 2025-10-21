@@ -1,16 +1,18 @@
+
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 5 - Choose Your Own API
+# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
 
 Submitted by: Terrance Holloway II
 
-Time spent: 5 hours spent in total
+Time spent: 2 hours spent in total
 
 ## Summary
 
-YouHunt is an android app that searches for different videos that meet the criteria of certain themes/topics you choose.
+YouHunt is an android app that searches for multiple different videos that meet the criteria of certain themes/topics you choose.
 
 If I had to describe this project in three (3) emojis, they would be: 🧐😤🥸
+
 ## Application Features
 
 <!-- (This is a comment) Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
@@ -18,29 +20,25 @@ If I had to describe this project in three (3) emojis, they would be: 🧐😤�
 The following REQUIRED features are completed:
 
 - [ ] Make an API call to an API of your choice using AsyncHTTPClient
-- [ ] Display at least three (3) pieces of data for each API entry retrieved
-- [ ] A working Button requests a new API entry and updates the data displayed
+- [ ] Implement a RecyclerView to display a list of entries from the API
+- [ ] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
-- [ ] Add a query to the API request
-  - The query I added is a randomized keyword search
-- [ ] Build a UI to allow users to add that query
+- [ ] Add a UI element for the user to interact with API further
+- [ ] Show a `Toast` or `Snackbar` when an item is clicked
+- [ ] Add item dividers with `DividerItemDecoration`
 
 The following EXTRA features are implemented:
 
 - [ ] List anything else that you added to improve the app!
 
-## API Choice
-
-My chosen API for this project is YouTube Data API v3.
-
+## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
+https://i.makeagif.com/media/10-21-2025/3lCDnd.gif
 
-https://i.makeagif.com/media/10-17-2025/jIDXRs.gif
 GIF created with makeaGIF
-
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
 - [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -52,7 +50,7 @@ Here's a place for any other notes on the app, it's creation process, or what yo
 
 ## License
 
-Copyright 2025 Terrance Holloway II
+Copyright Copyright 2025 Terrance Holloway II
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
